@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: microbot
-        image: xeonproc/microbot:latest
+        image: dontrebootme/microbot:latest
         ports:
         - containerPort: 80
