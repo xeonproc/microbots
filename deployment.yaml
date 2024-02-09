@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: microbot
+  name: myapp
 spec:
-  replicas: 2
   selector:
     matchLabels:
-      app: microbot
+      app: myapp
+  replicas: 2
   template:
     metadata:
       labels:
-        app: microbot
+        app: myapp
     spec:
       containers:
-      - name: microbot
+      - name: myapp
         image: dontrebootme/microbot:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
