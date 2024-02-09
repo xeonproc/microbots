@@ -6,8 +6,8 @@ spec:
   selector:
     app: microbots
   ports:
-  - port: 8080
+  - port: 80
     protocol: TCP
-    targetPort: 80
+    targetPort: 8080
   
 
