@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: microbots
-  replicas: 25
+  replicas: 2
   template:
     metadata:
       labels:
