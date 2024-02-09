@@ -16,4 +16,4 @@ spec:
       - name: microbots
         image: dontrebootme/microbot:latest
         ports:
-        - containerPort: 31895
+        - containerPort: 80
