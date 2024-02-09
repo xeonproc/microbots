@@ -1,4 +1,4 @@
-piVersion: v1
+ApiVersion: v1
 kind: Service
 metadata:
   name: myapp-service
